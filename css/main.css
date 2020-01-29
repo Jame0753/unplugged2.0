@@ -98,6 +98,164 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Base Header - Footer Styles -----------------------------------------------*/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header Styles  ------------------------------------------------------------*/
+header .content-wrapper {
+  display: flex;
+}
+
+header .header-divider {
+
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+
+}
+/*-------------------------------------------------------------------------------------*/
+/* Mobile Styles Homepage  ------------------------------------------------------------*/
+
+/* Hero Area  ------------------------------------------------------------*/
+.hero-area {
+  display: flex;
+}
+
+.hero-area .content-wrapper {
+
+}
+
+/* Aside   --------------------------------------------------------------*/
+
+.aside {
+  display: flex;
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+/* Feature Area  ------------------------------------------------------------*/
+.features {
+  display: flex;
+}
+
+.features .content-wrapper {
+
+}
+
+.features h2 {
+
+}
+
+.features-items {
+  display: flex;
+}
+
+.features-items article {
+
+}
+
+.fontawesome-icon {
+
+}
+
+.features-item-description {
+
+}
+
+/* Reviews Area  ------------------------------------------------------------*/
+.reviews {
+  display: flex;
+}
+
+.reviews .content-wrapper {
+
+}
+
+.reviews article {
+
+}
+
+.reviews h2 {
+
+}
+
+/* Footer Styles  ------------------------------------------------------------*/
+
+footer {
+  display: flex;
+}
+
+footer .content-wrapper {
+
+}
+
+footer h4 {
+
+}
+
+.footer-content {
+}
+
+address .contact {
+
+}
+
+footer .social {
+  display: flex;
+}
+
+
+footer .social-icons {
+  display: flex;
+}
+
+.copyright {
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* Mobile Styles About  ------------------------------------------------------------*/
+/* Main Section Styles  ------------------------------------------------------------*/
+.mission {
+  display: flex;
+}
+
+.contact-section {
+
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* Mobile Styles FAQ  ------------------------------------------------------------*/
+/* Main Section Styles  ------------------------------------------------------------*/
+.faq {
+
+}
+
+.faq .content-wrapper {
+
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -262,4 +420,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
