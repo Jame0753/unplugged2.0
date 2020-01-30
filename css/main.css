@@ -105,153 +105,120 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Header Styles  ------------------------------------------------------------*/
 header .content-wrapper {
   display: flex;
-}
-
-header .header-divider {
-
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul {
   display: flex;
+  justify-content: space-around;
 }
 
-header nav li {
+/* Footer Styles  ------------------------------------------------------------*/
 
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-/*-------------------------------------------------------------------------------------*/
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*=================================================================================*/
 /* Mobile Styles Homepage  ------------------------------------------------------------*/
+/*=================================================================================*/
 
 /* Hero Area  ------------------------------------------------------------*/
 .hero-area {
   display: flex;
-}
-
-.hero-area .content-wrapper {
-
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 /* Aside   --------------------------------------------------------------*/
 
-.aside {
+aside {
   display: flex;
-}
-
-.form-description {
-
-}
-
-.form {
-
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Feature Area  ------------------------------------------------------------*/
 .features {
   display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
-.features .content-wrapper {
-
-}
-
-.features h2 {
-
-}
-
-.features-items {
+.features .features-items {
   display: flex;
-}
-
-.features-items article {
-
-}
-
-.fontawesome-icon {
-
-}
-
-.features-item-description {
-
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Reviews Area  ------------------------------------------------------------*/
 .reviews {
   display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
-.reviews .content-wrapper {
-
-}
-
-.reviews article {
-
-}
-
-.reviews h2 {
-
-}
-
-/* Footer Styles  ------------------------------------------------------------*/
-
-footer {
-  display: flex;
-}
-
-footer .content-wrapper {
-
-}
-
-footer h4 {
-
-}
-
-.footer-content {
-}
-
-address .contact {
-
-}
-
-footer .social {
-  display: flex;
-}
-
-
-footer .social-icons {
-  display: flex;
-}
-
-.copyright {
-}
-
-/*-------------------------------------------------------------------------------------*/
+/*=================================================================================*/
 /* Mobile Styles About  ------------------------------------------------------------*/
+/*=================================================================================*/
+
 /* Main Section Styles  ------------------------------------------------------------*/
 .mission {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .contact-section {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-/*-------------------------------------------------------------------------------------*/
+/*=================================================================================*/
 /* Mobile Styles FAQ  ------------------------------------------------------------*/
+/*=================================================================================*/
+
 /* Main Section Styles  ------------------------------------------------------------*/
 .faq {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 
