@@ -130,6 +130,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   margin: 20px 0;
   font-size: 1.125‬em;
+  font-weight: 500;
 }
 
 p {
@@ -138,11 +139,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -176,6 +177,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .header-divider {
@@ -244,6 +253,10 @@ footer .copyright {
 
 /* Hero Area  ------------------------------------------------------------*/
 .hero-area {
+  background: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -297,6 +310,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url("../img/feature-bg.jpg") center no-repeat #333;
+  background-size:cover;
 }
 
 .features h2 {
@@ -533,6 +548,9 @@ input[type=button] {
   }
 
 /* Hero Styles  ------------------------------------------------------------*/
+  .hero-area {
+    min-height: 600px;
+  }
 
   .hero-area h1 {
     font-size: 3em;
@@ -568,7 +586,7 @@ input[type=button] {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 62%;
   }
 
 /* Reviews Styles  ------------------------------------------------------------*/
